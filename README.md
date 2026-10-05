@@ -19,8 +19,15 @@ Pour cela, le fichier `Base_notebook_to_complete.ipynb` est mis à votre disposi
 
 Pensez à bien y préciser:
 
-* Le nom de votre groupe
-* La liste des membres
+* Nom du groupe : 12
+* Membres du groupe :
+    * idil MAHAMOUD GUEDI
+    * André da Conceição
+    * Ali Chabaka 
+    * Aissam Eddine Boukhelkhal
+    * Lucas Duchamp
+    * RATOANDROMANANA Iavosoa Miella
+
 
 Vous serez avant tout évalué sur votre méthode, donc soyez précis, détaillé
 et rigoureux dans vos descriptions.
@@ -33,9 +40,35 @@ Si vous souhaitez tout de même l’utiliser, cela doit être justifié et docum
 Dans le dossier `data/`, vous trouverez les ensembles des jeux de données suivants:
 
 - `data/public_records/` — jeux de données issus d’institutions administratives publiques,
+    - cleaning : ok à moitier
+    - normaliser :
+    - correlation :
+    - clustering :
+    - anomalies :
+    - apriori :
 - `data/health/` — jeux de données médicales issus de cliniques et d’hôpitaux,
+    - cleaning :
+    - normaliser :
+    - correlation :
+    - clustering :
+    - anomalies :
+    - apriori :
 - `data/ecology/` — jeux de données issus de recherches environnementales,
+    - cleaning : ok
+    - normaliser : ok
+    - correlation : pas push
+    - clustering(PCA,T-SNE) :
+    - clustering(k-means, db-scan) :
+    - anomalies :
+    - apriori : pas pertinent
 - `data/logistics/` — jeux de données issus de groupes et d’entreprises privées.
+    - cleaning :
+    - normaliser :
+    - correlation :
+    - clustering(PCA,T-SNE) :
+    - clustering(k-means, db-scan) : 
+    - anomalies :
+    - apriori (des colonnes qui vont ensemble) :
 
 Le fichier `data/data_dictionary.csv` détaille les caractéristiques des variables présentes dans chaque jeu de données.
 
