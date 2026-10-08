@@ -57,8 +57,7 @@ Dans le dossier `data/`, vous trouverez les ensembles des jeux de données suiva
     - cleaning : ok
     - normaliser : ok
     - correlation : pas push
-    - clustering(PCA,T-SNE) :
-    - clustering(k-means, db-scan) :
+    - clustering: sur 1 dataset (orchard_surveys)
     - anomalies :
     - apriori : pas pertinent
 - `data/logistics/` — jeux de données issus de groupes et d’entreprises privées.
