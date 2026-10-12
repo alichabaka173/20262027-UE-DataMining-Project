@@ -1,0 +1,24 @@
+adjustment_number,facility_code,adjustment_date,item_category,adjustment_quantity,unit,adjustment_reason,approved_by_role,related_receipt_number,related_shipment_number,adjustment_status,receipt_number,receipt_date,receiving_facility_code,_merge,found_receipt,flag_precedes_receipt,flag_other_facility
+ADJ-2015-00003,FCL-1024,2015-10-30,monitoring_equipment,3.68,kit,late receipt posting,warehouse manager,RCV-2022-00361,,posted,RCV-2022-00361,2022-08-25,FCL-1011,both,True,True,True
+ADJ-2016-00006,FCL-1004,2016-06-12,medical_consumables,1.48,case,damaged packaging write-off,finance controller,RCV-2024-00527,,posted,RCV-2024-00527,2024-07-04,FCL-1016,both,True,True,True
+ADJ-2018-00014,FCL-1027,2018-02-18,agricultural_product,-4.42,pallet,quality-hold release,inventory supervisor,RCV-2023-00414,SHP-2023-00029,approved,RCV-2023-00414,2023-04-16,FCL-1011,both,True,True,True
+ADJ-2018-00016,FCL-1029,2018-02-22,biological_sample,-7.25,sealed_lot,cycle count correction,warehouse manager,RCV-2024-00522,SHP-2025-00012,posted,RCV-2024-00522,2024-07-06,FCL-1011,both,True,True,True
+ADJ-2018-00017,FCL-1019,2018-02-23,agricultural_product,-2.47,pallet,cycle count correction,quality manager,RCV-2017-00054,SHP-2024-00012,approved,RCV-2017-00054,2017-02-17,FCL-1019,both,True,False,False
+ADJ-2018-00018,FCL-1029,2018-02-26,biological_sample,6.04,sealed_lot,cycle count correction,inventory supervisor,RCV-2023-00446,SHP-2023-00037,approved,RCV-2023-00446,2023-09-15,FCL-1030,both,True,True,True
+ADJ-2019-00036,FCL-1023,2019-08-13,agricultural_product,-7.61,pallet,transfer posting correction,quality manager,RCV-2022-00342,,posted,RCV-2022-00342,2022-03-26,FCL-1015,both,True,True,True
+ADJ-2019-00037,FCL-1002,2019-08-18,monitoring_equipment,-3.47,kit,damaged packaging write-off,inventory supervisor,RCV-2020-00186,,posted,RCV-2020-00186,2020-02-18,FCL-1015,both,True,True,True
+ADJ-2019-00038,FCL-1001,2019-08-19,monitoring_equipment,-4.56,kit,cycle count correction,warehouse manager,RCV-2024-00497,,pending_review,RCV-2024-00497,2024-05-02,FCL-1011,both,True,True,True
+ADJ-2020-00057,FCL-1023,2020-04-04,protective_equipment,,case,quality-hold release,inventory supervisor,RCV-2022-00377,,posted,RCV-2022-00377,2022-11-04,FCL-1018,both,True,True,True
+ADJ-2020-00062,FCL-1008,2020-06-19,biological_sample,7.45,sealed_lot,cycle count correction,quality manager,RCV-2020-00220,,pending_review,RCV-2020-00220,2020-05-23,FCL-1001,both,True,False,True
+ADJ-2020-00063,FCL-1008,2020-06-22,agricultural_product,-3.08,pallet,quality-hold release,inventory supervisor,RCV-2018-00082,,posted,RCV-2018-00082,2018-03-02,FCL-1004,both,True,False,True
+ADJ-2020-00064,FCL-1010,2020-06-24,agricultural_product,1.95,pallet,late receipt posting,warehouse manager,RCV-2023-00475,,posted,RCV-2023-00475,2023-11-05,FCL-1002,both,True,True,True
+ADJ-2021-00081,FCL-1026,2021-11-22,protective_equipment,6.02,case,unit-of-measure review,inventory supervisor,RCV-2019-00125,,pending_review,RCV-2019-00125,2019-01-14,FCL-1011,both,True,False,True
+ADJ-2022-00092,FCL-1012,2022-10-08,protective_equipment,2.37,case,cycle count correction,finance controller,RCV-2024-00506,,posted,RCV-2024-00506,2024-06-17,FCL-1019,both,True,True,True
+ADJ-2022-00094,FCL-1014,2022-10-11,medical_consumables,1.6,case,cycle count correction,quality manager,RCV-2020-00206,,posted,RCV-2020-00206,2020-05-14,FCL-1012,both,True,False,True
+ADJ-2022-00095,FCL-1028,2022-10-13,protective_equipment,1.0,case,quality-hold release,finance controller,RCV-2022-00333,,posted,RCV-2022-00333,2022-03-14,FCL-1019,both,True,False,True
+ADJ-2022-00096,FCL-1008,2022-10-14,protective_equipment,6.99,case,transfer posting correction,quality manager,RCV-2022-00346,,approved,RCV-2022-00346,2022-03-24,FCL-1007,both,True,False,True
+ADJ-2022-00098,FCL-1009,2022-10-19,medical_consumables,1.58,case,quality-hold release,inventory supervisor,RCV-2019-00165,,pending_review,RCV-2019-00165,2019-09-30,FCL-1019,both,True,False,True
+ADJ-2023-00102,FCL-1026,2023-06-18,monitoring_equipment,-1.0,kit,late receipt posting,inventory supervisor,RCV-2016-00024,SHP-2022-00027,posted,RCV-2016-00024,2016-01-02,FCL-1010,both,True,False,True
+ADJ-2024-00118,FCL-1016,2024-05-17,medical_consumables,3.8,case,damaged packaging write-off,quality manager,RCV-2023-00401,,approved,RCV-2023-00401,2023-03-18,FCL-1011,both,True,False,True
+ADJ-2024-00119,FCL-1004,2024-05-19,agricultural_product,-4.77,pallet,unit-of-measure review,quality manager,RCV-2020-00221,,approved,RCV-2020-00221,2020-04-29,FCL-1014,both,True,False,True
+ADJ-2024-00120,FCL-1020,2024-05-20,agricultural_product,1.62,pallet,cycle count correction,,RCV-2020-00209,,posted,RCV-2020-00209,2020-05-13,FCL-1020,both,True,False,False

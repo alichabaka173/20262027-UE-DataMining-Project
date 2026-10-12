@@ -1,0 +1,14 @@
+controle,nombre
+"Commande : clé (PO,line) dupliquée",0
+"Expédition : clé (shipment,leg) dupliquée",0
+Réception sans ligne PO exacte,0
+Commande vers fournisseur inconnu,0
+Commande vers site inconnu,0
+Réception vers fournisseur inconnu,0
+Expédition vers expéditeur inconnu,0
+Expédition vers destinataire inconnu,0
+Expédition vers transporteur inconnu,0
+Expédition vers site de départ inconnu,0
+Expédition vers site arrivée inconnu,0
+Ajustement avec référence réception non trouvée,0
+Ajustement avec référence expédition non trouvée,0

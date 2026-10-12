@@ -1,0 +1,81 @@
+partner_code,partner_name,partner_role,partner_status,risk_class,external_registration_number,n_orders,n_receipts,n_inspection_held,n_shipments_sent,n_shipments_received,n_shipments_carried,n_restricted_shipments,n_facilities_operated,n_facilities_served,n_order_categories,n_shipment_categories,pca_1,pca_2,cluster_kmeans,cluster_agglomerative,tsne_1,tsne_2,cluster_dbscan
+BP-30001,Marula Cold Store Cooperative,supplier_customer,active,review,REG-AVL-20012,12,12,0,4,3,0,1,1,8.0,10.0,4.0,1.7050528384445576,-0.38676145433520687,0,0,-7.646689,-0.45071444,0
+BP-30002,Blue Heron Monitoring Cooperative,customer,active,standard,REG-KNT-20037,7,7,0,3,2,0,0,0,7.0,6.0,3.0,0.07205711286653266,-1.298986442114958,0,0,-0.60116404,0.88475263,0
+BP-30003,Orra Technical Services,supplier,active,review,REG-AVL-20022,4,4,0,3,2,0,0,0,3.0,2.0,3.0,-1.1929735195070388,-0.5653569581401374,0,1,0.5907712,-0.7134053,0
+BP-30004,Common Ground Climate Forum,service_partner,active,review,REG-VLN-01008,0,0,0,7,5,0,0,0,0.0,0.0,6.0,-3.573130620031254,2.274160971291864,1,1,7.666056,-5.576105,0
+BP-30005,Warden Medical Ventures,service_partner,inactive,standard,REG-VLN-01016,6,6,0,0,0,0,0,0,5.0,3.0,0.0,-1.4632218853737207,-3.5310883890006717,2,2,3.331877,3.413497,1
+BP-30006,Avelora Food Standards Office,customer,active,standard,,0,0,0,3,8,0,0,0,0.0,0.0,3.0,-3.8313219359874737,1.6292115881528157,1,1,7.5220413,-4.71763,0
+BP-30007,Helix Legal and Compliance,service_partner,active,standard,REG-NDH-01012,6,5,0,5,4,0,0,0,5.0,4.0,5.0,-0.14305287566227165,-0.1324832705023203,0,0,-1.3088568,-0.36592066,0
+BP-30008,Riverstone Waste Management,supplier,active,low,REG-AVL-20036,8,7,1,5,3,0,0,0,5.0,6.0,5.0,0.7255656343915494,-0.3218015912630051,0,0,-2.9952486,-3.5631804,0
+BP-30009,Lantern Investigative Bureau,service_partner,active,low,REG-VLN-01010,13,13,0,7,8,0,0,0,9.0,9.0,5.0,1.4319307091792015,-0.3650680900082924,0,0,-2.9348197,1.0711801,0
+BP-30010,Tembara Coastal Administration,customer,active,low,,0,0,0,9,5,0,0,0,0.0,0.0,8.0,-3.4466744119941173,2.610614409484572,1,1,8.0706415,-5.499802,0
+BP-30011,Valenne Laboratory Materials,supplier,active,standard,REG-VLN-20009,8,7,1,5,4,0,1,1,5.0,7.0,4.0,1.4833781687018819,0.4519555890213523,0,0,-6.4877524,-2.532101,0
+BP-30012,Pandan Agricultural Finance,service_partner,active,low,REG-TMB-20033,11,10,0,3,2,0,0,0,8.0,9.0,3.0,0.6711542786787094,-1.6109018199572944,0,0,-0.9577648,1.4961944,0
+BP-30013,Vann Maritime Advisory,service_partner,inactive,standard,REG-NDH-01015,5,5,0,0,0,0,0,0,5.0,3.0,0.0,-1.6112545182581748,-3.4641981064611134,2,2,3.068556,3.2386181,1
+BP-30014,Ardena Commercial Bank,service_partner,active,review,REG-VLN-20018,8,8,0,4,7,0,1,0,6.0,6.0,4.0,0.7192966287273552,-0.04613601425956719,0,0,-3.2673302,-0.08668314,0
+BP-30015,Tembara Port Services,carrier,active,low,REG-TMB-20005,6,4,0,5,5,51,0,1,4.0,5.0,5.0,0.6386581630999678,0.8014519232168109,3,4,-6.5827646,3.9270895,-1
+BP-30016,Kintara Cave and Pollinator Authority,customer,active,low,,1,1,0,4,5,0,1,1,1.0,1.0,4.0,-1.706828500709502,1.7624097039733029,1,1,4.651664,-6.085083,0
+BP-30017,Meridian–Asterion Foundation,customer,active,review,REG-VLN-01014,7,6,0,9,6,0,0,0,6.0,5.0,6.0,0.4239442472695708,0.32191151431157433,0,0,-2.2271504,-0.39314333,0
+BP-30018,Pelagos Marine Samples Laboratory,customer,active,review,REG-TMB-20013,11,10,0,5,6,0,1,1,5.0,8.0,3.0,1.3746120428756148,0.14423758511218,0,0,-7.426826,-0.81885034,0
+BP-30019,Orison Medical Audit Board,customer,active,review,,1,1,0,5,3,0,0,0,1.0,1.0,4.0,-2.422061700006549,0.8188994463559859,1,1,5.812085,-4.612055,0
+BP-30020,Nacre Air Cargo,carrier,active,standard,REG-TMB-20017,7,7,0,4,8,38,0,1,6.0,6.0,4.0,1.1381420096149482,0.43863511911743375,3,4,-6.562874,4.0364604,-1
+BP-30021,Asterion Clinical Institute,customer,active,review,REG-VLN-01002,11,11,0,4,58,0,1,2,10.0,7.0,4.0,2.3235958107956036,1.4447711878962501,0,0,-8.900207,-1.4299904,-1
+BP-30022,Varlan Natural History Circle,customer,inactive,low,REG-KNT-01018,13,10,0,0,0,0,0,0,7.0,8.0,0.0,-0.3314327032291962,-4.139251590693527,2,2,2.4060192,4.0109086,1
+BP-30023,Lumen Protective Equipment,supplier,active,standard,REG-VLN-20016,4,4,0,6,5,0,0,1,4.0,4.0,5.0,-0.009646446265507544,0.6971018593778494,0,0,-5.858277,-0.12900071,0
+BP-30024,Dune Agricultural Machinery,supplier,active,review,REG-TMB-20027,4,3,0,3,2,0,0,0,3.0,4.0,3.0,-1.0282298863698527,-0.6726392554787464,0,1,0.39352036,-0.6062037,0
+BP-30025,Amber Storage and Transit,carrier,active,standard,REG-KNT-20032,7,6,1,4,0,50,1,1,5.0,5.0,4.0,1.2731790663464346,-0.09976522664143327,3,4,-7.8297925,3.5198119,-1
+BP-30026,Valenne Industrial Supply Consortium,customer,inactive,standard,REG-VLN-20040,7,7,0,0,0,0,0,0,6.0,6.0,0.0,-0.9556422563921374,-3.820401096519979,2,2,2.6712794,3.6204083,1
+BP-30027,Kintara Emergency Response Office,customer,active,low,,0,0,0,3,4,0,0,1,0.0,0.0,3.0,-3.550376965633759,1.743879438076908,1,1,7.343389,-6.5713587,0
+BP-30028,Mango Coast Growers Association,customer,active,elevated,REG-TMB-20034,12,12,0,5,1,0,0,0,7.0,10.0,5.0,0.9172116455718071,-1.3048735126042283,0,0,-1.6825601,1.6820437,0
+BP-30029,Kestrel Conservation Services,supplier,active,standard,REG-KNT-20014,9,8,1,4,3,0,0,1,5.0,8.0,4.0,1.2660168855420637,-0.2582273714446088,0,0,-5.550819,-2.5526657,0
+BP-30030,Auric Medical Supplies,supplier,active,low,REG-VLN-20004,10,10,0,7,3,0,1,1,4.0,7.0,5.0,1.248634743465544,0.4516770003312843,0,0,-7.1777406,-0.3607014,0
+BP-30031,North Quay Biomedical Storage,carrier,active,standard,REG-NDH-20039,1,1,0,7,4,35,2,1,1.0,1.0,6.0,-0.9590572376138777,2.7425966382330045,3,1,3.315191,-6.3603444,-1
+BP-30032,Nordhaven Trade Documentation Centre,supplier,active,standard,REG-NDH-20042,10,10,2,3,5,0,0,0,8.0,8.0,3.0,1.4605566208764753,-0.9214118968544363,0,0,-2.0107646,-3.7505233,0
+BP-30033,Nordhaven Refrigeration Works,supplier,active,standard,REG-NDH-20008,12,11,2,7,10,0,1,1,9.0,8.0,7.0,2.815089572755019,1.1317940448431618,0,0,-6.77281,-3.6834557,0
+BP-30034,Commonway Legal Registry Services,service_partner,inactive,low,REG-VLN-20023,7,7,0,0,0,0,0,0,4.0,6.0,0.0,-1.1307908976085423,-3.6891268976207563,2,2,3.3466814,3.91266,1
+BP-30035,Ardena Capital Union,service_partner,active,elevated,REG-VLN-01023,7,6,0,7,5,0,0,0,5.0,5.0,7.0,0.2824963503821965,0.25757589877207115,0,0,-2.0422544,-0.36498842,0
+BP-30036,Office of the Kintara Chancellor,customer,active,low,,0,0,0,3,7,0,0,0,0.0,0.0,3.0,-3.854482780699584,1.5628287867726787,1,1,7.229904,-4.600868,0
+BP-30037,Avelora Orchard Export Union,supplier_customer,active,low,REG-AVL-20007,9,8,1,5,4,0,2,1,6.0,7.0,4.0,1.841232368658406,0.5682772229358807,0,0,-6.9664984,-2.664674,0
+BP-30038,Vosmere Biotechnics,supplier_customer,inactive,standard,REG-NDH-01017,10,10,0,0,0,0,0,0,8.0,7.0,0.0,-0.4476369116885704,-4.097494220008091,2,2,2.8642151,4.395145,1
+BP-30039,Valenne Industrial Futures Council,customer,active,elevated,REG-VLN-01005,11,10,0,5,4,0,1,0,6.0,8.0,4.0,1.047572851452735,-0.3782021492549793,0,0,-3.2553248,0.11337547,0
+BP-30040,Threshold Earth Observatory,customer,active,review,REG-AVL-01007,7,7,1,5,6,0,1,1,5.0,5.0,4.0,1.339828568796175,0.7548518003250361,0,0,-6.576115,-2.5065532,0
+BP-30041,Earth Ledger Project,customer,active,standard,REG-NDH-01011,7,6,0,5,7,0,0,0,4.0,6.0,5.0,0.17253880341804717,0.03812020642584145,0,0,-1.8091311,-0.6832434,0
+BP-30042,Nivren Maritime Logistics,carrier,active,standard,REG-NDH-01022,7,7,0,1,7,56,0,0,5.0,7.0,1.0,0.2608456153121268,-1.314473230989818,3,4,-6.0347967,4.864194,-1
+BP-30043,Whitehaven Strategic Holdings,service_partner,active,low,REG-VLN-01004,9,9,0,1,4,0,0,0,7.0,7.0,1.0,0.08708378702619889,-2.1259348943536622,2,0,0.33294576,1.8700876,0
+BP-30044,Vale Strategy Collective,service_partner,active,elevated,REG-VLN-01006,8,7,0,5,7,0,1,1,7.0,5.0,4.0,1.0981191136385597,0.5361964237107938,0,0,-7.020295,-0.85807955,0
+BP-30045,Tembara Biodiversity Service,customer,active,review,,1,1,0,5,6,0,2,0,1.0,1.0,4.0,-1.850305104331374,1.7436991401683501,1,1,5.2521644,-5.841102,0
+BP-30046,Sable Route Analytics,service_partner,active,standard,REG-VLN-20011,7,7,1,7,10,0,0,0,5.0,7.0,5.0,1.0224815594188619,0.41487629596311476,0,0,-2.4709134,-4.509163,0
+BP-30047,Northstar Cold Chain Services,carrier,active,elevated,REG-TMB-01003,7,7,0,3,5,85,1,1,6.0,7.0,2.0,1.3173064415510451,0.0817772758938255,3,4,-6.9041014,4.286067,-1
+BP-30048,Cedar Public Affairs Advisory,service_partner,active,standard,REG-VLN-20035,3,3,1,1,2,0,0,0,2.0,3.0,1.0,-1.3006599479271734,-1.2650400200920229,2,1,1.5817933,-1.410067,0
+BP-30049,Boreal Insurance Mutual,service_partner,active,review,REG-NDH-20019,8,8,1,7,3,0,1,0,6.0,7.0,6.0,1.3464978482438645,0.23767969499285702,0,0,-4.329213,-4.608866,0
+BP-30050,Eastgate Clinical Services,customer,active,standard,REG-AVL-20038,8,8,2,4,4,0,0,1,7.0,5.0,3.0,1.4145512387784447,-0.1798388111963939,0,0,-5.1977973,-2.7488284,0
+BP-30051,Tembara  Customs  Coordination  Unit,customer,active,review,,0,0,0,3,3,0,0,1,0.0,0.0,3.0,-3.5942558919298597,1.618115197381293,1,1,7.3504143,-6.631937,0
+BP-30052,Orison Facility Management,supplier,active,review,REG-VLN-20015,8,8,2,6,4,0,2,0,5.0,6.0,5.0,1.6096415757579166,0.5766064008024311,0,0,-4.9561253,-4.976621,0
+BP-30053,Juniper Community Health Foundation,customer,active,standard,REG-KNT-20025,11,9,1,6,2,0,0,0,5.0,10.0,5.0,1.199768014273542,-0.6352850396586648,0,0,-3.234911,-3.566037,0
+BP-30054,Willow Regional Media Service,service_partner,active,review,REG-AVL-20030,10,10,1,6,3,0,2,0,9.0,8.0,4.0,1.8363474094985643,-0.145522623391173,0,0,-4.8595033,-4.8563423,0
+BP-30055,Silverline Courier Cooperative,carrier,active,standard,REG-VLN-20026,7,7,0,6,4,52,0,0,7.0,6.0,6.0,0.9094625550387752,0.10926137705528526,3,4,-5.9960465,4.047594,-1
+BP-30056,Horizon Field Research Cooperative,customer,active,standard,REG-AVL-01013,27,25,1,35,20,0,10,0,4.0,13.0,12.0,4.152402438286053,3.034799383797908,4,3,-6.931902,-5.1996107,-1
+BP-30057,Harbour Ledger Auditors,service_partner,active,standard,REG-NDH-20024,11,11,1,3,3,0,0,0,9.0,7.0,3.0,1.1791963115272772,-1.2842682286099725,0,0,-2.1870735,-3.1405377,0
+BP-30058,Marot Ecological Policy Office,service_partner,inactive,standard,REG-VLN-01020,7,7,0,0,0,0,0,0,4.0,7.0,0.0,-1.059420500858375,-3.7299840662819426,2,2,3.3406408,4.119985,1
+BP-30059,Bell Conservation Survey,customer,inactive,standard,REG-AVL-01019,14,13,0,0,0,0,0,0,8.0,8.0,0.0,-0.1203185489883291,-4.252962245062439,2,2,2.4924815,4.395209,1
+BP-30060,Crescent Freight Exchange,carrier,active,review,REG-NDH-20002,8,6,1,5,4,41,1,1,6.0,7.0,5.0,1.9558331539048912,0.8747372304096022,3,4,-7.4594326,3.6626601,-1
+BP-30061,Kintara Rural Transport Board,customer,active,low,,0,0,0,7,6,0,3,0,0.0,0.0,6.0,-2.9602004954301,3.1300164516563376,1,1,5.834103,-6.496131,0
+BP-30062,Solvane Energy Group,customer,active,elevated,REG-VLN-01021,6,6,0,3,2,0,1,0,6.0,5.0,3.0,0.08323433200763974,-0.7572923137655684,0,0,-0.25637838,0.34054115,0
+BP-30063,Nordhaven Maritime Safety Agency,customer,active,review,,0,0,0,6,2,0,1,0,0.0,0.0,5.0,-3.4947287783680387,2.0637311940334873,1,1,6.3936863,-6.0707865,0
+BP-30064,Quartz Data Hosting,supplier,active,standard,REG-VLN-20028,8,6,1,2,5,0,0,0,6.0,7.0,2.0,0.5210306321339865,-1.1421125599636697,0,0,-1.6030827,-3.0480642,0
+BP-30065,Tembara Coastal Research Trust,customer,active,review,REG-TMB-20010,2,2,0,7,5,0,4,1,1.0,2.0,7.0,-0.46403293999669476,2.6332590903591324,1,1,4.0421224,-6.325481,0
+BP-30066,Belen Agro-Industries,supplier_customer,active,standard,REG-KNT-01024,12,10,1,5,5,0,0,0,7.0,8.0,5.0,1.4185915750521771,-0.4311578503408863,0,0,-2.691712,-3.771557,0
+BP-30067,Avelora Ministry of Strategic Resources,customer,active,standard,,0,0,0,3,6,0,0,0,0.0,0.0,3.0,-3.880740380799069,1.4875701736353257,1,1,6.9263144,-5.091678,0
+BP-30068,Tamarind Environmental Law Centre,service_partner,active,review,REG-TMB-20029,8,8,2,7,3,0,0,0,5.0,8.0,5.0,1.2767013194923849,-0.15090145747641573,0,0,-3.251052,-4.2856283,0
+BP-30069,Civic Health Purchasing Network,supplier,active,elevated,REG-VLN-20003,6,5,0,5,5,0,1,1,5.0,3.0,5.0,0.46136841128551115,0.8689834962532788,0,0,-6.478996,-0.52730685,0
+BP-30070,Avelora Agricultural Resilience Agency,customer,active,standard,,1,1,0,4,6,0,0,0,1.0,1.0,4.0,-2.3643525840588517,1.0188556790991334,1,1,5.9447045,-4.625854,0
+BP-30071,Valenne Public Procurement Authority,customer,active,standard,,0,0,0,3,6,0,0,0,0.0,0.0,3.0,-3.880740380799069,1.4875701736353257,1,1,6.9263144,-5.091678,0
+BP-30072,Senna Agricultural Research Centre,customer,active,elevated,REG-KNT-20020,9,8,0,3,3,0,0,0,8.0,8.0,3.0,0.4874208411083837,-1.3333808025328147,0,0,-0.8932804,1.1555051,0
+BP-30073,Avelora Civil Service College,customer,active,low,REG-AVL-20041,8,8,0,5,2,0,0,0,6.0,8.0,5.0,0.467047757948621,-0.8032891959050427,0,0,-1.5961899,0.855842,0
+BP-30074,Pollinator Justice Network,service_partner,active,standard,REG-AVL-01009,1,1,0,2,4,0,0,0,1.0,1.0,2.0,-2.7039894145353918,0.10908168143128796,1,1,6.037302,-4.0743976,0
+BP-30075,Interregional Procurement Cooperative,supplier_customer,active,standard,REG-VLN-20001,5,5,2,1,4,0,0,1,5.0,5.0,1.0,0.4402963897649446,-1.0101157495171114,0,0,-4.532703,-2.3547335,0
+BP-30076,Avelora Council of State,customer,active,standard,,0,0,0,4,6,0,0,0,0.0,0.0,4.0,-3.7612794039037407,1.8021472384943913,1,1,7.080452,-5.5184784,0
+BP-30077,Velin Packaging Industries,supplier,active,standard,REG-AVL-20021,5,4,0,4,6,0,0,0,4.0,5.0,4.0,-0.33365725326823714,-0.11144959182084219,0,0,-1.0809348,-0.7548668,0
+BP-30078,Meridian BioLogistics,carrier,active,standard,REG-VLN-01001,111,109,6,90,56,42,12,4,7.0,18.0,15.0,8.694205268993311,5.180149677012164,4,3,-7.6124377,-5.1534495,-1
+BP-30079,Kintara Field Equipment Cooperative,supplier_customer,active,elevated,REG-KNT-20006,12,10,0,5,8,0,3,1,8.0,8.0,5.0,2.065108434638246,0.8098931070290959,0,0,-7.931909,-1.4102628,0
+BP-30080,Garnet Scientific Instruments,supplier,active,standard,REG-TMB-20031,16,14,0,7,5,0,0,0,12.0,11.0,6.0,1.750210531633704,-0.6887842827204848,0,0,-2.8787394,1.3970149,0

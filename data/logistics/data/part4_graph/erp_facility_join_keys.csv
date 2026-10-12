@@ -1,0 +1,31 @@
+facility_code,facility_name,region,latitude,longitude,operating_partner_code,erp_entity_id
+FCL-1011,Meridian Valenne Headquarters,Valenne Central District,47.24,7.58,BP-30078,ERP:FACILITY:FCL-1011
+FCL-1024,Meridian Kintara Biological Aggregation Facility,Kintara Karst Cluster,4.74,112.28,BP-30078,ERP:FACILITY:FCL-1024
+FCL-1019,Meridian Avelora Transfer Annex,Eastern Avelora Agricultural Cluster,7.46,101.91,BP-30078,ERP:FACILITY:FCL-1019
+FCL-1020,Meridian Tembara Coastal Hub,Tembara Coastal Cluster,2.2,104.55,BP-30078,ERP:FACILITY:FCL-1020
+FCL-1016,Northstar Tembara Cold-Chain Hub,Tembara Coastal Cluster,2.23,104.58,BP-30047,ERP:FACILITY:FCL-1016
+FCL-1010,Asterion Central Clinical Campus,Valenne Central District,47.2,7.51,BP-30021,ERP:FACILITY:FCL-1010
+FCL-1007,Asterion Avelora Executive Clinic,Eastern Avelora Agricultural Cluster,7.35,101.62,BP-30021,ERP:FACILITY:FCL-1007
+FCL-1030,Kintara Cave Authority Field Depot,Kintara Karst Cluster,4.76,112.38,BP-30016,ERP:FACILITY:FCL-1030
+FCL-1029,Vale Strategy Valenne Office,Valenne Central District,47.26,7.49,BP-30044,ERP:FACILITY:FCL-1029
+FCL-1015,Threshold Earth Avelora Laboratory,Eastern Avelora Agricultural Cluster,7.5,101.75,BP-30040,ERP:FACILITY:FCL-1015
+FCL-1027,Valenne Central Distribution Centre,Valenne Central District,47.1481,7.6765,BP-30075,ERP:FACILITY:FCL-1027
+FCL-1009,Nordhaven Freight Exchange Warehouse,Nordhaven Maritime District,56.3572,9.0504,BP-30060,ERP:FACILITY:FCL-1009
+FCL-1008,Civic Health Receiving Centre,Valenne Central District,47.2606,7.5003,BP-30069,ERP:FACILITY:FCL-1008
+FCL-1018,Auric Medical Supply Depot,Valenne Central District,47.2894,7.848,BP-30030,ERP:FACILITY:FCL-1018
+FCL-1006,Tembara Port Consolidation Yard,Tembara Coastal Cluster,2.2093,104.5033,BP-30015,ERP:FACILITY:FCL-1006
+FCL-1022,Kintara Field Equipment Depot,Kintara Karst Cluster,4.6435,112.2424,BP-30079,ERP:FACILITY:FCL-1022
+FCL-1017,Avelora Orchard Export Packhouse,Eastern Avelora Agricultural Cluster,7.3451,101.8877,BP-30037,ERP:FACILITY:FCL-1017
+FCL-1013,Nordhaven Refrigeration Workshop,Nordhaven Maritime District,56.5286,8.8348,BP-30033,ERP:FACILITY:FCL-1013
+FCL-1012,Valenne Laboratory Materials Store,Valenne Central District,47.0273,7.6438,BP-30011,ERP:FACILITY:FCL-1012
+FCL-1014,Tembara Coastal Research Store,Tembara Coastal Cluster,2.2229,104.2706,BP-30065,ERP:FACILITY:FCL-1014
+FCL-1025,Marula Cooperative Cold Store,Eastern Avelora Agricultural Cluster,7.4355,101.9226,BP-30001,ERP:FACILITY:FCL-1025
+FCL-1003,Pelagos Samples Laboratory,Tembara Coastal Cluster,2.0992,104.3596,BP-30018,ERP:FACILITY:FCL-1003
+FCL-1004,Kestrel Conservation Field Depot,Kintara Karst Cluster,4.7363,112.3743,BP-30029,ERP:FACILITY:FCL-1004
+FCL-1002,Lumen Safety Equipment Store,Valenne Central District,47.2996,7.5208,BP-30023,ERP:FACILITY:FCL-1002
+FCL-1001,Nacre Air Cargo Terminal,Tembara Coastal Cluster,2.1298,104.5129,BP-30020,ERP:FACILITY:FCL-1001
+FCL-1026,Amber Kintara Transit Warehouse,Kintara Karst Cluster,4.7549,112.391,BP-30025,ERP:FACILITY:FCL-1026
+FCL-1028,Eastgate Clinical Receiving Unit,Eastern Avelora Agricultural Cluster,7.4529,101.9087,BP-30050,ERP:FACILITY:FCL-1028
+FCL-1023,North Quay Biomedical Store,Nordhaven Maritime District,56.1606,8.7405,BP-30031,ERP:FACILITY:FCL-1023
+FCL-1021,Kintara Emergency Logistics Depot,Kintara Karst Cluster,4.673,112.2945,BP-30027,ERP:FACILITY:FCL-1021
+FCL-1005,Tembara Customs Inspection Yard,Tembara Coastal Cluster,2.559,104.3376,BP-30051,ERP:FACILITY:FCL-1005

@@ -1,0 +1,5 @@
+from_activity,to_activity,frequency,reverse_frequency,heuristic_dependency
+order_placed,receipt_recorded,610,0,0.9983633387888707
+shipment_dispatched,shipment_arrived,433,0,0.9976958525345622
+shipment_arrived,inventory_adjusted,23,0,0.9583333333333334
+inventory_adjusted,shipment_dispatched,14,0,0.9333333333333333

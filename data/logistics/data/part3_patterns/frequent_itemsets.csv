@@ -1,0 +1,203 @@
+source_dataset,itemset,size,support
+goods_receipts,receipt_status=posted,1,0.9442622950819672
+purchase_order_lines,order_status=completed,1,0.9384615384615385
+shipments,shipment_status=delivered,1,0.8555555555555555
+goods_receipts,inspection_status=accepted,1,0.8278688524590164
+goods_receipts,inspection_status=accepted | receipt_status=posted,2,0.8278688524590164
+shipments,temperature_control_class=ambient,1,0.7622222222222222
+shipments,shipment_status=delivered | temperature_control_class=ambient,2,0.6355555555555555
+shipments,authorization_class=ordinary,1,0.6333333333333333
+purchase_order_lines,authorization_class=ordinary,1,0.6215384615384615
+purchase_order_lines,authorization_class=ordinary | order_status=completed,2,0.58
+shipments,authorization_class=ordinary | shipment_status=delivered,2,0.5288888888888889
+shipments,authorization_class=ordinary | temperature_control_class=ambient,2,0.5
+shipments,authorization_class=ordinary | shipment_status=delivered | temperature_control_class=ambient,3,0.4111111111111111
+goods_receipts,received_unit=case,1,0.25573770491803277
+purchase_order_lines,ordered_unit=case,1,0.25384615384615383
+purchase_order_lines,order_status=completed | ordered_unit=case,2,0.24
+goods_receipts,receipt_status=posted | received_unit=case,2,0.23934426229508196
+shipments,temperature_control_class=2-8c,1,0.2288888888888889
+shipments,declared_unit=case,1,0.2288888888888889
+shipments,shipment_status=delivered | temperature_control_class=2-8c,2,0.21555555555555556
+goods_receipts,inspection_status=accepted | receipt_status=posted | received_unit=case,3,0.21475409836065573
+goods_receipts,inspection_status=accepted | received_unit=case,2,0.21475409836065573
+purchase_order_lines,ordered_unit=unit,1,0.2
+goods_receipts,received_unit=service,1,0.19836065573770492
+goods_receipts,received_unit=unit,1,0.19672131147540983
+shipments,declared_unit=service,1,0.19555555555555557
+shipments,declared_unit=case | shipment_status=delivered,2,0.19555555555555557
+shipments,declared_unit=service | temperature_control_class=ambient,2,0.19555555555555557
+purchase_order_lines,ordered_unit=service,1,0.19384615384615383
+purchase_order_lines,authorization_class=expedited,1,0.18923076923076923
+purchase_order_lines,order_status=completed | ordered_unit=service,2,0.18615384615384614
+goods_receipts,receipt_status=posted | received_unit=service,2,0.18524590163934426
+purchase_order_lines,order_status=completed | ordered_unit=unit,2,0.18461538461538463
+goods_receipts,receipt_status=posted | received_unit=unit,2,0.18360655737704917
+purchase_order_lines,authorization_class=expedited | order_status=completed,2,0.18153846153846154
+shipments,declared_unit=unit,1,0.1688888888888889
+shipments,authorization_class=expedited,1,0.1688888888888889
+shipments,declared_unit=unit | temperature_control_class=ambient,2,0.1688888888888889
+goods_receipts,inspection_status=accepted | receipt_status=posted | received_unit=unit,3,0.16557377049180327
+goods_receipts,inspection_status=accepted | received_unit=unit,2,0.16557377049180327
+shipments,declared_unit=service | shipment_status=delivered | temperature_control_class=ambient,3,0.16444444444444445
+shipments,declared_unit=service | shipment_status=delivered,2,0.16444444444444445
+goods_receipts,inspection_status=accepted | received_unit=service,2,0.16393442622950818
+goods_receipts,inspection_status=accepted | receipt_status=posted | received_unit=service,3,0.16393442622950818
+purchase_order_lines,authorization_class=ordinary | ordered_unit=case,2,0.1523076923076923
+shipments,declared_unit=unit | shipment_status=delivered,2,0.1511111111111111
+shipments,authorization_class=expedited | shipment_status=delivered,2,0.1511111111111111
+shipments,declared_unit=unit | shipment_status=delivered | temperature_control_class=ambient,3,0.1511111111111111
+shipments,authorization_class=ordinary | declared_unit=case,2,0.14888888888888888
+purchase_order_lines,authorization_class=ordinary | order_status=completed | ordered_unit=case,3,0.14
+shipments,authorization_class=restricted,1,0.13333333333333333
+purchase_order_lines,authorization_class=ordinary | ordered_unit=service,2,0.13230769230769232
+shipments,authorization_class=ordinary | declared_unit=service | temperature_control_class=ambient,3,0.13111111111111112
+shipments,authorization_class=ordinary | declared_unit=service,2,0.13111111111111112
+purchase_order_lines,authorization_class=ordinary | ordered_unit=unit,2,0.13076923076923078
+purchase_order_lines,authorization_class=restricted,1,0.1276923076923077
+purchase_order_lines,authorization_class=ordinary | order_status=completed | ordered_unit=service,3,0.1276923076923077
+shipments,authorization_class=expedited | temperature_control_class=ambient,2,0.12666666666666668
+shipments,authorization_class=ordinary | declared_unit=case | shipment_status=delivered,3,0.12666666666666668
+shipments,authorization_class=ordinary | temperature_control_class=2-8c,2,0.12666666666666668
+purchase_order_lines,item_category=medical_consumables | ordered_unit=case,2,0.12153846153846154
+purchase_order_lines,item_category=medical_consumables,1,0.12153846153846154
+purchase_order_lines,authorization_class=restricted | order_status=completed,2,0.12
+purchase_order_lines,authorization_class=ordinary | order_status=completed | ordered_unit=unit,3,0.12
+shipments,authorization_class=restricted | shipment_status=delivered,2,0.12
+shipments,declared_unit=case | temperature_control_class=ambient,2,0.11555555555555555
+shipments,declared_unit=sealed_lot,1,0.11555555555555555
+shipments,declared_unit=sealed_lot | temperature_control_class=2-8c,2,0.11555555555555555
+shipments,item_category=biological_sample,1,0.11555555555555555
+shipments,authorization_class=ordinary | shipment_status=delivered | temperature_control_class=2-8c,3,0.11555555555555555
+shipments,item_category=biological_sample | temperature_control_class=2-8c,2,0.11555555555555555
+shipments,declared_unit=sealed_lot | item_category=biological_sample | temperature_control_class=2-8c,3,0.11555555555555555
+shipments,declared_unit=sealed_lot | item_category=biological_sample,2,0.11555555555555555
+purchase_order_lines,item_category=medical_consumables | order_status=completed,2,0.11384615384615385
+purchase_order_lines,item_category=medical_consumables | order_status=completed | ordered_unit=case,3,0.11384615384615385
+shipments,item_category=biological_sample | shipment_status=delivered | temperature_control_class=2-8c,3,0.11333333333333333
+shipments,item_category=medical_consumables,1,0.11333333333333333
+shipments,declared_unit=sealed_lot | shipment_status=delivered,2,0.11333333333333333
+shipments,declared_unit=sealed_lot | item_category=biological_sample | shipment_status=delivered,3,0.11333333333333333
+shipments,item_category=biological_sample | shipment_status=delivered,2,0.11333333333333333
+shipments,declared_unit=case | temperature_control_class=2-8c,2,0.11333333333333333
+shipments,declared_unit=sealed_lot | shipment_status=delivered | temperature_control_class=2-8c,3,0.11333333333333333
+shipments,declared_unit=case | item_category=medical_consumables,2,0.11333333333333333
+shipments,declared_unit=case | item_category=medical_consumables | temperature_control_class=2-8c,3,0.11333333333333333
+shipments,item_category=medical_consumables | temperature_control_class=2-8c,2,0.11333333333333333
+goods_receipts,inspection_status=conditional,1,0.10983606557377049
+goods_receipts,inspection_status=conditional | receipt_status=posted,2,0.10983606557377049
+shipments,authorization_class=expedited | shipment_status=delivered | temperature_control_class=ambient,3,0.10888888888888888
+shipments,item_category=medical_consumables | shipment_status=delivered | temperature_control_class=2-8c,3,0.10222222222222223
+shipments,item_category=medical_consumables | shipment_status=delivered,2,0.10222222222222223
+shipments,declared_unit=case | shipment_status=delivered | temperature_control_class=2-8c,3,0.10222222222222223
+shipments,declared_unit=case | item_category=medical_consumables | shipment_status=delivered,3,0.10222222222222223
+shipments,authorization_class=ordinary | declared_unit=service | shipment_status=delivered,3,0.10222222222222223
+shipments,authorization_class=ordinary | declared_unit=unit | temperature_control_class=ambient,3,0.1
+shipments,authorization_class=ordinary | declared_unit=unit,2,0.1
+shipments,declared_unit=pallet,1,0.09777777777777778
+shipments,declared_unit=pallet | item_category=agricultural_product,2,0.09777777777777778
+shipments,item_category=agricultural_product,1,0.09777777777777778
+shipments,declared_unit=case | shipment_status=delivered | temperature_control_class=ambient,3,0.09333333333333334
+shipments,declared_unit=kit | item_category=monitoring_equipment | temperature_control_class=ambient,3,0.09333333333333334
+shipments,declared_unit=kit,1,0.09333333333333334
+shipments,declared_unit=kit | temperature_control_class=ambient,2,0.09333333333333334
+shipments,item_category=monitoring_equipment | temperature_control_class=ambient,2,0.09333333333333334
+shipments,item_category=monitoring_equipment,1,0.09333333333333334
+shipments,declared_unit=kit | item_category=monitoring_equipment,2,0.09333333333333334
+goods_receipts,received_unit=kit,1,0.09180327868852459
+shipments,declared_unit=pallet | temperature_control_class=ambient,2,0.08888888888888889
+shipments,declared_unit=pallet | item_category=agricultural_product | temperature_control_class=ambient,3,0.08888888888888889
+shipments,item_category=agricultural_product | temperature_control_class=ambient,2,0.08888888888888889
+goods_receipts,receipt_status=posted | received_unit=kit,2,0.08852459016393442
+purchase_order_lines,item_category=monitoring_equipment | ordered_unit=kit,2,0.0876923076923077
+purchase_order_lines,ordered_unit=kit,1,0.0876923076923077
+purchase_order_lines,item_category=monitoring_equipment,1,0.0876923076923077
+shipments,authorization_class=ordinary | declared_unit=unit | shipment_status=delivered,3,0.08666666666666667
+purchase_order_lines,item_category=monitoring_equipment | order_status=completed | ordered_unit=kit,3,0.08615384615384615
+purchase_order_lines,item_category=monitoring_equipment | order_status=completed,2,0.08615384615384615
+purchase_order_lines,order_status=completed | ordered_unit=kit,2,0.08615384615384615
+shipments,authorization_class=ordinary | item_category=monitoring_equipment,2,0.08444444444444445
+shipments,authorization_class=ordinary | item_category=monitoring_equipment | temperature_control_class=ambient,3,0.08444444444444445
+shipments,authorization_class=ordinary | declared_unit=kit | temperature_control_class=ambient,3,0.08444444444444445
+shipments,authorization_class=ordinary | declared_unit=kit,2,0.08444444444444445
+shipments,authorization_class=ordinary | declared_unit=kit | item_category=monitoring_equipment,3,0.08444444444444445
+purchase_order_lines,item_category=cold_storage_equipment | ordered_unit=unit,2,0.08307692307692308
+purchase_order_lines,item_category=cold_storage_equipment,1,0.08307692307692308
+shipments,authorization_class=restricted | temperature_control_class=ambient,2,0.08222222222222222
+purchase_order_lines,item_category=agricultural_product | ordered_unit=pallet,2,0.08153846153846153
+purchase_order_lines,ordered_unit=pallet,1,0.08153846153846153
+purchase_order_lines,item_category=agricultural_product,1,0.08153846153846153
+shipments,declared_unit=pallet | item_category=agricultural_product | shipment_status=delivered,3,0.08
+shipments,declared_unit=pallet | shipment_status=delivered,2,0.08
+shipments,item_category=agricultural_product | shipment_status=delivered,2,0.08
+purchase_order_lines,item_category=cold_storage_equipment | order_status=completed | ordered_unit=unit,3,0.07846153846153846
+purchase_order_lines,item_category=cold_storage_equipment | order_status=completed,2,0.07846153846153846
+shipments,authorization_class=ordinary | declared_unit=case | temperature_control_class=ambient,3,0.07777777777777778
+goods_receipts,inspection_status=accepted | receipt_status=posted | received_unit=kit,3,0.07704918032786885
+goods_receipts,inspection_status=accepted | received_unit=kit,2,0.07704918032786885
+shipments,declared_unit=unit | item_category=cold_storage_equipment | temperature_control_class=ambient,3,0.07555555555555556
+shipments,item_category=agricultural_product | shipment_status=delivered | temperature_control_class=ambient,3,0.07555555555555556
+shipments,declared_unit=unit | item_category=cold_storage_equipment,2,0.07555555555555556
+shipments,declared_unit=pallet | shipment_status=delivered | temperature_control_class=ambient,3,0.07555555555555556
+shipments,shipment_status=delayed | temperature_control_class=ambient,2,0.07555555555555556
+shipments,item_category=cold_storage_equipment,1,0.07555555555555556
+shipments,shipment_status=delayed,1,0.07555555555555556
+shipments,item_category=cold_storage_equipment | temperature_control_class=ambient,2,0.07555555555555556
+goods_receipts,received_unit=pallet,1,0.07540983606557378
+purchase_order_lines,item_category=protective_equipment | ordered_unit=case,2,0.07538461538461538
+purchase_order_lines,item_category=protective_equipment,1,0.07538461538461538
+purchase_order_lines,authorization_class=ordinary | item_category=medical_consumables,2,0.07384615384615385
+purchase_order_lines,authorization_class=ordinary | item_category=medical_consumables | ordered_unit=case,3,0.07384615384615385
+purchase_order_lines,item_category=protective_equipment | order_status=completed | ordered_unit=case,3,0.07230769230769231
+purchase_order_lines,item_category=protective_equipment | order_status=completed,2,0.07230769230769231
+goods_receipts,receipt_status=posted | received_unit=pallet,2,0.07213114754098361
+shipments,authorization_class=restricted | shipment_status=delivered | temperature_control_class=ambient,3,0.07111111111111111
+shipments,item_category=cold_storage_equipment | shipment_status=delivered | temperature_control_class=ambient,3,0.07111111111111111
+shipments,item_category=cold_storage_equipment | shipment_status=delivered,2,0.07111111111111111
+shipments,authorization_class=ordinary | item_category=medical_consumables | temperature_control_class=2-8c,3,0.07111111111111111
+shipments,authorization_class=ordinary | item_category=medical_consumables,2,0.07111111111111111
+shipments,declared_unit=unit | item_category=cold_storage_equipment | shipment_status=delivered,3,0.07111111111111111
+shipments,authorization_class=ordinary | declared_unit=case | temperature_control_class=2-8c,3,0.07111111111111111
+shipments,authorization_class=ordinary | declared_unit=case | item_category=medical_consumables,3,0.07111111111111111
+purchase_order_lines,item_category=agricultural_product | order_status=completed,2,0.07076923076923076
+purchase_order_lines,item_category=agricultural_product | order_status=completed | ordered_unit=pallet,3,0.07076923076923076
+purchase_order_lines,order_status=completed | ordered_unit=pallet,2,0.07076923076923076
+shipments,item_category=monitoring_equipment | shipment_status=delivered | temperature_control_class=ambient,3,0.06888888888888889
+shipments,declared_unit=pack | item_category=laboratory_material | temperature_control_class=ambient,3,0.06888888888888889
+shipments,declared_unit=pack,1,0.06888888888888889
+shipments,item_category=laboratory_material,1,0.06888888888888889
+shipments,item_category=monitoring_equipment | shipment_status=delivered,2,0.06888888888888889
+shipments,declared_unit=pack | item_category=laboratory_material,2,0.06888888888888889
+shipments,declared_unit=kit | shipment_status=delivered,2,0.06888888888888889
+shipments,declared_unit=pack | temperature_control_class=ambient,2,0.06888888888888889
+shipments,item_category=laboratory_material | temperature_control_class=ambient,2,0.06888888888888889
+shipments,declared_unit=kit | shipment_status=delivered | temperature_control_class=ambient,3,0.06888888888888889
+shipments,declared_unit=kit | item_category=monitoring_equipment | shipment_status=delivered,3,0.06888888888888889
+purchase_order_lines,authorization_class=ordinary | item_category=medical_consumables | order_status=completed,3,0.06769230769230769
+purchase_order_lines,ordered_unit=pack,1,0.06769230769230769
+purchase_order_lines,item_category=laboratory_material | ordered_unit=pack,2,0.06769230769230769
+purchase_order_lines,item_category=laboratory_material,1,0.06769230769230769
+goods_receipts,received_unit=pack,1,0.06721311475409836
+goods_receipts,receipt_status=posted | received_unit=pack,2,0.06557377049180328
+purchase_order_lines,item_category=biological_sample,1,0.06461538461538462
+purchase_order_lines,item_category=biological_sample | ordered_unit=sealed_lot,2,0.06461538461538462
+purchase_order_lines,ordered_unit=sealed_lot,1,0.06461538461538462
+shipments,authorization_class=ordinary | item_category=monitoring_equipment | shipment_status=delivered,3,0.06444444444444444
+shipments,authorization_class=ordinary | declared_unit=kit | shipment_status=delivered,3,0.06444444444444444
+shipments,authorization_class=emergency,1,0.06444444444444444
+goods_receipts,received_unit=sealed_lot,1,0.06393442622950819
+purchase_order_lines,order_status=completed | ordered_unit=pack,2,0.06307692307692307
+purchase_order_lines,item_category=laboratory_material | order_status=completed | ordered_unit=pack,3,0.06307692307692307
+purchase_order_lines,item_category=laboratory_material | order_status=completed,2,0.06307692307692307
+shipments,authorization_class=ordinary | item_category=medical_consumables | shipment_status=delivered,3,0.06222222222222222
+purchase_order_lines,authorization_class=emergency,1,0.06153846153846154
+purchase_order_lines,authorization_class=ordinary | item_category=cold_storage_equipment,2,0.06153846153846154
+purchase_order_lines,authorization_class=ordinary | item_category=cold_storage_equipment | ordered_unit=unit,3,0.06153846153846154
+goods_receipts,receipt_status=posted | received_unit=sealed_lot,2,0.060655737704918035
+purchase_order_lines,order_status=completed | ordered_unit=sealed_lot,2,0.06
+purchase_order_lines,item_category=biological_sample | order_status=completed,2,0.06
+purchase_order_lines,item_category=biological_sample | order_status=completed | ordered_unit=sealed_lot,3,0.06
+shipments,declared_unit=case | item_category=office_supply,2,0.06
+shipments,item_category=office_supply,1,0.06
+shipments,item_category=office_supply | temperature_control_class=ambient,2,0.06
+shipments,declared_unit=case | item_category=office_supply | temperature_control_class=ambient,3,0.06
