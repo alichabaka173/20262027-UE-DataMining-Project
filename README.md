@@ -40,12 +40,14 @@ Si vous souhaitez tout de même l’utiliser, cela doit être justifié et docum
 Dans le dossier `data/`, vous trouverez les ensembles des jeux de données suivants:
 
 - `data/public_records/` — jeux de données issus d’institutions administratives publiques,
-    - cleaning : ok à moitier
+    - cleaning : ok 
     - normaliser :
     - correlation :
     - clustering :
     - anomalies :
     - apriori :
+    - graphe / communautées :
+    - Process Mining :
 - `data/health/` — jeux de données médicales issus de cliniques et d’hôpitaux,
     - cleaning :
     - normaliser :
@@ -53,6 +55,8 @@ Dans le dossier `data/`, vous trouverez les ensembles des jeux de données suiva
     - clustering :
     - anomalies :
     - apriori :
+    - graphe / communautées :
+    - Process Mining :
 - `data/ecology/` — jeux de données issus de recherches environnementales,
     - cleaning : ok
     - normaliser : ok
@@ -60,6 +64,8 @@ Dans le dossier `data/`, vous trouverez les ensembles des jeux de données suiva
     - clustering: sur 1 dataset (orchard_surveys)
     - anomalies :
     - apriori : pas pertinent
+    - graphe / communautées :
+    - Process Mining :
 - `data/logistics/` — jeux de données issus de groupes et d’entreprises privées.
     - cleaning :
     - normaliser :
@@ -68,6 +74,8 @@ Dans le dossier `data/`, vous trouverez les ensembles des jeux de données suiva
     - clustering(k-means, db-scan) : 
     - anomalies :
     - apriori (des colonnes qui vont ensemble) :
+    - graphe / communautées :
+    - Process Mining :
 
 Le fichier `data/data_dictionary.csv` détaille les caractéristiques des variables présentes dans chaque jeu de données.
 
