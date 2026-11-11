@@ -62,20 +62,21 @@ Dans le dossier `data/`, vous trouverez les ensembles des jeux de données suiva
     - normaliser : ok
     - correlation : pas push
     - clustering: sur 1 dataset (orchard_surveys)
-    - anomalies :
+    - anomalies : ok
     - apriori : pas pertinent
-    - graphe / communautées :
-    - Process Mining :
+    - graphe / communautées : pas de graphes évidents à former, reviendrait à faire un clustering (lié les sites selon leur similaritées)
+    - Process Mining : pas pertinent
+    - Texte Mining : pas besoin, trop peu de données (6 textes) et anomalie trouvée en lisant
 - `data/logistics/` — jeux de données issus de groupes et d’entreprises privées.
-    - cleaning :
+    - cleaning : 1/2
     - normaliser :
     - correlation :
-    - clustering(PCA,T-SNE) :
-    - clustering(k-means, db-scan) : 
-    - anomalies :
-    - apriori (des colonnes qui vont ensemble) :
-    - graphe / communautées :
-    - Process Mining :
+    - clustering(PCA,T-SNE) : 1/2
+    - clustering(k-means, db-scan) : 1/2
+    - anomalies : 1/2
+    - apriori (des colonnes qui vont ensemble) : 1/2
+    - graphe / communautées : 1/2
+    - Process Mining : 1/2
 
 Le fichier `data/data_dictionary.csv` détaille les caractéristiques des variables présentes dans chaque jeu de données.
 
