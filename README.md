@@ -25,7 +25,7 @@ Pensez à bien y préciser:
     * André da Conceição
     * Ali Chabaka 
     * Aissam Eddine Boukhelkhal
-    * Lucas Duchamp
+    * Lucas Duchamp (pseudo github : Mascass)
     * RATOANDROMANANA Iavosoa Miella
 
 
